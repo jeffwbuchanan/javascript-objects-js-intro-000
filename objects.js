@@ -14,3 +14,4 @@ function removeFromPlaylist (obj, key, value){
   delete ojb.key;
   return Object.assign (obj, {[key]: value})
 }
+removeFromPlayList ("Slowdive", "Alison")
