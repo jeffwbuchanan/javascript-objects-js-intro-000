@@ -11,9 +11,9 @@ function updatePlaylist (obj, key, value){
 
 updatePlaylist (playlist, "Slowdive", "Alison");
 
-function removeFromPlaylist (obj, key, value){
-  delete obj.key
-  return obj
+function removeFromPlaylist (playlist, artist){
+  delete playlist[artist]
+  return playlist
 };
 
-removeFromPlayList (playlist, "Slowdive", "Alison")
+removeFromPlayList (playlist, "Slowdive")
