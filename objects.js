@@ -12,6 +12,6 @@ updatePlaylist (playlist, "Slowdive", "Alison");
 
 function removeFromPlaylist (obj, key, value){
   delete obj.key;
-  return obj)
+  return obj
 }
 removeFromPlayList ("Slowdive", "Alison")
