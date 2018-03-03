@@ -4,6 +4,5 @@ var playList = {
   Ed_Sheeran: "Perfect"
 };
 function updatePlaylist (obj, key, value){
-  return Object.assign({}, obj, {[key]: value})
+  return Object.assign({}, playList, {Slowdive: ["My Bloody Valentine"]})
 };
-updatePlaylist (playList, "Slowdive", "My Bloody Valentine")
