@@ -11,6 +11,6 @@ function updatePlaylist (obj, key, value){
 updatePlaylist (playlist, "Slowdive", "Alison");
 
 function removeFromPlaylist (obj, key, value){
-  delete playlist.Slowdive;
+  delete ojb.key;
   return Object.assign (obj, {[key]: value})
 }
