@@ -12,7 +12,7 @@ function updatePlaylist (obj, key, value){
 updatePlaylist (playlist, "Slowdive", "Alison");
 
 function removeFromPlaylist (obj, key, value){
-  delete obj.key;
+  delete obj.key
   return obj
 };
 
