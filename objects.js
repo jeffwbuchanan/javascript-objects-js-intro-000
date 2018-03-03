@@ -14,4 +14,4 @@ function removeFromPlaylist (obj, key, value){
   delete obj.key;
   return obj
 }
-removeFromPlayList ("Slowdive", "Alison")
+removeFromPlayList (playlist, "Slowdive", "Alison")
