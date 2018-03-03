@@ -9,3 +9,6 @@ function updatePlaylist (obj, key, value){
 };
 
 updatePlaylist (playlist, "Slowdive", "Alison");
+
+delete playlist:Adele;
+
