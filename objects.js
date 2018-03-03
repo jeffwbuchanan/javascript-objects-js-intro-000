@@ -4,5 +4,8 @@ var playlist = {
   Ed_Sheeran: "Perfect"
 };
 function updatePlaylist (obj, key, value){
-  return Object.assign({}, playlist, {Slowdive: ["Alison"]})
+  obj[key] = value
+  return obj
 };
+
+updatePlaylist (playlist, "Slowdive", "Alison");
