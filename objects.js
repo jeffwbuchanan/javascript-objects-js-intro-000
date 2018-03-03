@@ -12,6 +12,6 @@ updatePlaylist (playlist, "Slowdive", "Alison");
 
 function removeFromPlaylist (obj, key, value){
   delete obj.key;
-  return Object.assign (obj, {[key]: value})
+  return obj)
 }
 removeFromPlayList ("Slowdive", "Alison")
